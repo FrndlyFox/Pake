@@ -28,7 +28,7 @@ if (process.env.HIDE_TITLE_BAR === 'true') {
 }
 
 if (process.env.FULLSCREEN === 'true') {
-  params = `${params} --resize`;
+  params = `${params} --fullscreen`;
 }
 
 if (process.env.MULTI_ARCH === 'true') {
